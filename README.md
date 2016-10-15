@@ -9,9 +9,15 @@ I've had tacos on the moon and find them far superior to Earth tacos.
 2016-4-5
 
 Learn to push.
+
 git remote add origin git@github.com:LinHuican/hello-world.git
+
 git add README.md
+
 git commit -m "Learn to push."
+
 git push origin master
+
 git push -u origin master
+
 
