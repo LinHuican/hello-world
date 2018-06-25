@@ -30,3 +30,16 @@ git remote add origin git@server-name:path/repo-name.git；
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
+
+#create a new repository on the command line
+echo "# ROS_Tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/LinHuican/ROS_Tutorial.git
+git push -u origin master
+
+#push an existing repository from the command line
+git remote add origin https://github.com/LinHuican/ROS_Tutorial.git
+git push -u origin master
